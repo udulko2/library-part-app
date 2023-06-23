@@ -1,0 +1,10 @@
+.book-rating-stars {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+}
+
+.book-rating-stars > img {
+  padding: 2px 2px 3px;
+}

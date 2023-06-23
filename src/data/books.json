@@ -1,0 +1,91 @@
+[
+  {
+    "id": 1,
+    "title": "Book 1 (I am book with no cover piscures)",
+    "author": "Noname Author",
+    "year": 2020,
+    "images": []
+  },
+  {
+    "id": 2,
+    "title": "Thinking in Java (book with one picture)",
+    "author": "Bruce Eckel",
+    "year": 1998,
+    "images": [
+      "https://swiperjs.com/demos/images/nature-1.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Treasure Island (with two pictures)",
+    "author": "Robert Louis Stevenson",
+    "year": 1883,
+    "images": [
+      "https://swiperjs.com/demos/images/nature-1.jpg",
+      "https://swiperjs.com/demos/images/nature-2.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Robinson Crusoe (three pictures)",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "images": [
+      "https://swiperjs.com/demos/images/nature-1.jpg",
+      "https://swiperjs.com/demos/images/nature-2.jpg",
+      "https://swiperjs.com/demos/images/nature-3.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Book five (even more)",
+    "author": "John Silver",
+    "year": 2023,
+    "images": [
+      "https://swiperjs.com/demos/images/nature-1.jpg",
+      "https://swiperjs.com/demos/images/nature-2.jpg",
+      "https://swiperjs.com/demos/images/nature-3.jpg",
+      "https://swiperjs.com/demos/images/nature-4.jpg",
+      "https://swiperjs.com/demos/images/nature-5.jpg",
+      "https://swiperjs.com/demos/images/nature-6.jpg",
+      "https://swiperjs.com/demos/images/nature-7.jpg",
+      "https://swiperjs.com/demos/images/nature-8.jpg",
+      "https://swiperjs.com/demos/images/nature-10.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Book 6",
+    "author": "John Silver",
+    "year": 2023,
+    "images": []
+  },
+  {
+    "id": 7,
+    "title": "Book 7",
+    "author": "John Silver",
+    "year": 2023,
+    "images": []
+  },
+  {
+    "id": 8,
+    "title": "Book 8",
+    "author": "John Silver",
+    "year": 2023,
+    "images": []
+  },
+  {
+    "id": 9,
+    "title": "Book 9",
+    "author": "John Silver",
+    "year": 2023,
+    "images": []
+  },
+  {
+    "id": 10,
+    "title": "Book 10",
+    "author": "John Silver",
+    "year": 2023,
+    "images": []
+  }
+]

@@ -1,0 +1,51 @@
+.rules-page {
+  margin-bottom: 62px;
+}
+
+.rules-page > h2 {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 32px;
+}
+
+.rules-page > ol > li {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
+.rules-page li {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.rules-page > ol > li {
+  margin-bottom: 32px;
+}
+
+.rules-page li > ol {
+  margin-top: 16px;
+  margin-left: 30px;
+}
+
+.rules-page li {
+  margin-bottom: 16px;
+}
+
+.rules-page li:last-child {
+  margin-bottom: 0;
+}
+
+.rules-page ol {
+  counter-reset: li-counter;
+}
+
+.rules-page li::before {
+  counter-increment: li-counter;
+  content: counters(li-counter, ".") ". ";
+}

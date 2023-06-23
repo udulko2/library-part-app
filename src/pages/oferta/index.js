@@ -1,0 +1,1 @@
+export { OfertaPage } from './oferta-page';

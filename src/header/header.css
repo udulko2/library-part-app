@@ -1,0 +1,70 @@
+.burger-nav > .nav {
+  display: none;
+}
+
+.burger-icon {
+  display: none;
+}
+
+.header__inner > .burger-icon {
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.header__inner > .burger-icon > path {
+  transform-origin: initial;
+  transition: .4s;
+}
+
+.header__inner > .burger-icon.burger-icon-transform > path:nth-child(1) {
+  rotate: 45deg;
+  fill: url(#paint0_linear_336_32903);
+}
+
+.header__inner > .burger-icon.burger-icon-transform > path:nth-child(2) {
+  rotate: -45deg;
+  fill: url(#paint0_linear_336_32903);
+}
+
+.header__inner > .burger-icon.burger-icon-transform > path:nth-child(3),
+.header__inner > .burger-icon.burger-icon-transform > path:nth-child(4) {
+  scale: 0;
+}
+
+.header {
+  height: 105px;
+  padding-top: 32px;
+  margin-bottom: 47px;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.link-logo {
+  width: 286px;
+  flex-shrink: 0;
+}
+
+.lib-person-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.lib-title {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+
+.person__name {
+  font-weight: 600;
+}

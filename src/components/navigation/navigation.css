@@ -1,0 +1,121 @@
+nav.nav {
+  max-width: 17.5rem;
+  width: 100%;
+  transition: .4s;
+  transform-origin: top left;
+}
+
+nav.nav .nav-burger-extension {
+  display: none;
+}
+
+.nav-item > .accordion-item > .accordion-title > a > button {
+  display: block;
+  border: none;
+  background: none;
+  cursor: pointer;
+  line-height: 0;
+}
+
+.nav-item > .accordion-item > .accordion-title > a > button > .icon-arrow {
+  transition: transform .4s;
+}
+
+.nav-item > .accordion-item > .accordion-title > a > button > .icon-arrow.arrow-down {
+  transform: rotate(180deg);
+}
+
+.nav-item > .accordion-item > .accordion-title > a:not(.nav-link--active) > button > .icon-arrow > path {
+  fill: #363636;
+}
+
+.nav-item > .accordion-item > .accordion-content.accordion-content-close {
+  display: none;
+}
+
+.nav-link {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.nav-link--showcase {
+  display: flex;
+  gap: 82px;
+}
+
+.nav-link--underline {
+  border-bottom: 1px solid #F83600;
+  padding-bottom: 0.5rem;
+  width: 255px;
+}
+
+.nav-link--underline-discolor {
+  border-color: #363636;
+}
+
+.nav-link--active {
+  background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.nav-sublist {
+  padding-left: 1.25rem;
+}
+
+.nav-subitem {
+  padding-left: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.nav-subitem-all {
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.nav-subitem > span {
+  line-height: 24px;
+  color: #A7A7A7;
+  padding-left: 0.375rem;
+  position: relative;
+  bottom: 1px;
+}
+
+.nav-sublink {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav-sublink--active {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.nav-item-rules {
+  margin-top: 41px;
+  margin-bottom: 42px;
+}
+
+.nav-horizontal-divider {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #F9F9FA;
+  border-color: #BFC4C9;
+  margin-top: 51px;
+  margin-bottom: 32px;
+  margin-left: 0;
+}
+
+.nav-item-profile {
+  margin-bottom: 42px;
+}

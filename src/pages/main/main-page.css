@@ -1,0 +1,20 @@
+.main-page {
+  width: 100%;
+}
+
+.books-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 62px;
+  display: grid;
+  justify-content: space-between;
+  row-gap: 24px;
+}
+
+.books-wrapper-grid {
+  grid-template-columns: auto auto auto auto;
+}
+
+.books-wrapper-list {
+  grid-template-columns: auto;
+  row-gap: 16px;
+}

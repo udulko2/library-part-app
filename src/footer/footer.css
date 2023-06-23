@@ -1,0 +1,22 @@
+.footer__inner {
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #BFC4C9;
+}
+
+.footer__copyright-notice {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer__social {
+  display: flex;
+  gap: 24px;
+}
+
+.footer__social > img {
+  width: 24px;
+  cursor: pointer;
+}

@@ -1,0 +1,10 @@
+.btn-common {  
+  display: block;
+  border: none;
+  background: linear-gradient(231.58deg, #F83600 -53.35%, #F9D423 297.76%);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 0.2px;
+  cursor: pointer;
+}

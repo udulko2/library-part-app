@@ -1,0 +1,118 @@
+.book-card {
+  width: 190px;
+  height: 470px;
+  padding: 8px 8px 16px;
+  background: #fff;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 10px;
+  position: relative;
+}
+
+.book-card__image {
+  display: block;
+  width: 174px;
+  height: 242px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.book-stars {
+  height: 24px;
+  color: #A7A7A7;
+  margin-bottom: 1rem;
+}
+
+.book-title {
+  height: 54px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  font-weight: 600;
+}
+
+.book-author {
+  height: 36px;
+  overflow: hidden;
+  white-space: normal;
+  text-overflow: ellipsis;
+  color: #727272;
+}
+
+.btn-book-card-grid {
+  height: 40px;
+  border-radius: 20px;
+  font-size: 12px;
+  position: absolute;
+  bottom: 16px;
+  left: 12px;
+  right: 12px;
+}
+
+.book-card-list {
+  max-width: 100%;
+  padding: 16px 24px 16px 16px;
+  background: #fff;
+  box-shadow: 0px 2px 4px rgba(191, 196, 201, 0.2), 0px 3px 4px rgba(191, 196, 201, 0.18), 0px 1px 5px rgba(191, 196, 201, 0.24);
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.book-card-list > div {
+  width: 100%;
+}
+
+.book-card-list__image {
+  max-width: 120px;
+  width: 100%;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 3px;
+}
+
+.book-card-list__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 8px;
+}
+
+.book-card-list__author {
+  font-size: 16px;
+  line-height: 24px;
+  color: #727272;
+  margin-bottom: 16px;
+}
+
+.book-card-list-stars-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.book-card-list__btn {
+  width: 174px;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.books-wrapper-grid .book-card {
+  display: block;
+}
+
+.books-wrapper-grid .book-card-list {
+  display: none;
+}
+
+.books-wrapper-list .book-card {
+  display: none;
+}
+
+.books-wrapper-list .book-card-list {
+  display: flex;
+}
